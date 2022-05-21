@@ -29,7 +29,7 @@ a {
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding: 100px 150px;
+    padding: 80px 150px;
     justify-content:space-between;
     align-items: center;
 }
@@ -93,32 +93,68 @@ h4 {
     margin: 20px;
     color: rgb(92, 91, 91);
 }
-img {
+.pic {
     width: auto;
     height: 200px;
     margin: 10px 0px;
+    border: #124a97 solid;
+    border-width: 3px;
+    border-radius: 5px;
 }
 
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+    padding: 100px 250px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+strong {
+    text-align: right;
+    margin-right: 50px;
 }
 
+.bluecontainer {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
 .attention {
     background-color: #3882f6;
     color: #f9faf8;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px 150px;
 }
-
+.action {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+h3, h5 {
+    margin: 0px;
+}
 .button2 {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 5px;
     border-color: #f9faf8;
     border-style: solid;
+    padding: 5px 20px;
+    height: 30px;
+    font-weight: bold;
 }
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 30px; 
 }
